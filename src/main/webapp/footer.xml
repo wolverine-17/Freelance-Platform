@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<footer>
+    <navigation>
+        <link>Home</link>
+        <link>About</link>
+        <link>Projects</link>
+        <link>Contact</link>
+    </navigation>
+    <contact>
+        <email>kthejas45@example.com</email>
+        <phone>7558006798</phone>
+    </contact>
+    <social>
+        <link>Facebook</link>
+        <link>Twitter</link>
+        <link>Instagram</link>
+    </social>
+</footer>

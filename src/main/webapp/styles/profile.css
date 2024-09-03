@@ -1,0 +1,208 @@
+/* Styles for the profile section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+/* Basic styling for the header */
+.site-header {
+    background-color: #ffffff; /* Change to your desired background color */
+    padding: 20px 0; /* Adjust padding as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.container {
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center align the content */
+    padding: 0 20px; /* Add padding to the sides */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    max-height: 40px; /* Adjust logo size as needed */
+}
+
+.main-navigation ul {
+    list-style-type: none;
+}
+
+.main-navigation ul li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust spacing between navigation items */
+    pos/* Basic styling for the header */
+.site-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    max-height: 40px;
+}
+
+.main-navigation ul {
+    list-style-type: none;
+}
+
+.main-navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+.main-navigation ul li:first-child {
+    margin-left: 0;
+}
+
+.main-navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+}
+
+.main-navigation ul li a:hover {
+    color: #007bff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Profile Section */
+/* Styles for the profile section */
+.profile-section {
+    margin-top: 40px; /* Adjust margin as needed */
+}
+
+/* Profile Details */
+.profile-details {
+    max-width: 600px; /* Limit profile details width */
+}
+
+.profile-details h2 {
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.profile-details p {
+    font-size: 16px; /* Adjust font size */
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+
+/* Edit Profile Button */
+.edit-profile-button {
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size */
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add spacing above the button */
+}
+
+.edit-profile-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Align the profile section to the left of the screen */
+.profile-section .container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+}
+
+/* Profile Image */
+.profile-image {
+    display: none; /* Hide the profile image */
+}
+
+
+.footer-section {
+    background-color: #333333; /* Background color */
+    padding: 40px 0; /* Adjust padding as needed */
+    color: #ffffff; /* Text color */
+    text-align: center;
+}
+
+.footer-section .container {
+    max-width: 1200px; /* Adjust maximum width */
+    margin: 0 auto;
+}
+
+.footer-navigation ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.footer-navigation ul li {
+    display: inline-block;
+    margin-right: 20px; /* Spacing between navigation links */
+}
+
+.footer-navigation ul li a {
+    color: #ffffff; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-navigation ul li a:hover {
+    color: #cccccc; /* Link color on hover */
+}
+
+.contact-info p {
+    margin-bottom: 10px; /* Spacing between contact information */
+}
+
+.social-media-links a {
+    display: inline-block;
+    margin: 0 10px; /* Spacing between social media icons */
+    color: #ffffff; /* Icon color */
+    font-size: 24px; /* Adjust icon size */
+    transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+    color: #cccccc; /* Icon color on hover */
+}
